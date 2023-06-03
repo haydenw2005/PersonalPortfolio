@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to bottom, #000000, #043911, #000000);
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+  }
+
+.main-section {
+    width: 90vw;
+    height: 75vh;  
+    background-color: #f0e9f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 225vh;
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+}
+
+.reg-line {
+    margin-bottom: 0vh;
+    margin-top: 0vh;
+    position: relative;
+    width: 33%; /* Set the width of the line to span the full width of its container */
+    height: 10px; /* Set the height of the line */
+    background-color: black; /* Set the color of the line */
+    margin: 0;
+    padding: 0;
+}
+
+.slant-line {
+    position: relative; /* Set the position to relative */
+    top: 40%;
+    left: 32%;
+    width: 36%; /* Set the width of the line to span the full width of its container */
+    height: 10px; /* Set the height of the line */
+    background-color: black; /* Set the color of the line */
+    margin: 0;
+    padding: 0; 
+    margin-bottom: -20px;
+}
+
+.right-slant {
+    transform: rotate(-17deg);
+}
+
+.left-slant {
+    transform: rotate(17deg);
+}
+
+.right-pos {
+    left: 67%;
+}
+
+.bottom-pos {
+    top: calc(100% - 10px);
+}
+
+
+.border {
+    height: 17.5vh;
+    margin: 0;
+    padding: 0; 
+    /*background-color: rgb(161, 98, 98); */
+}
+
+#haypic {
+    height: calc(57.5vh - 20px); 
+    width: 21vw;
+    position: relative; /* Set the position to relative */
+    left: calc(78.5% - 6vw);
+    border: 10px solid black;
+    
+}
+
+
