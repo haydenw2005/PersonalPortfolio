@@ -1,8 +1,33 @@
-body {
-    background-image: linear-gradient(to bottom, #000000, #043911, #000000);
-    margin-bottom: 0vh;
-    margin-top: 0vh;
-  }
+.titles {
+    font-size: 4vw;
+    font-family: 'Nova Flat';
+    margin: 0;
+    padding: 0;
+}
+
+.left-title {
+    position: relative;
+    text-align: center;
+    top: 1vh;
+}
+
+.right-title {
+    position: relative;
+    text-align: center;
+    top: -8vh;
+}
+
+#side-borders {
+    background-image: linear-gradient(to bottom, #000000, #043911);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    overflow: auto;
+
+}
 
 .main-section {
     width: 90vw;
