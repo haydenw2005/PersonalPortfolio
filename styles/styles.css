@@ -17,16 +17,14 @@
     top: -8vh;
 }
 
-#side-borders {
+#static-side-borders {
     background-image: linear-gradient(to bottom, #000000, #043911);
     position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-
     overflow: auto;
-
 }
 
 .main-section {
@@ -38,12 +36,11 @@
 }
 
 .container {
-    
     margin-left: auto;
     margin-right: auto;
     width: 90vw;
     height: 225vh;
-    margin-bottom: 0vh;
+    margin-bottom: 15vh;
     margin-top: 0vh;
 }
 
@@ -56,6 +53,7 @@
     background-color: black; /* Set the color of the line */
     margin: 0;
     padding: 0;
+    transition: transform 0.3s linear;
 }
 
 .slant-line {
@@ -83,7 +81,7 @@
 }
 
 .bottom-pos {
-    top: calc(100% - 10px);
+    top: calc(100% - 17.5vh);
 }
 
 
