@@ -1,6 +1,7 @@
 .titles {
     font-size: 4vw;
-    font-family: 'Nova Flat';
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif; /*FONT 2: 'Nova Flat';*/
     margin: 0;
     padding: 0;
 }
@@ -50,22 +51,23 @@
     position: relative;
     width: 33.3333%; /* Set the width of the line to span the full width of its container */
     height: 10px; /* Set the height of the line */
-    background-color: black; /* Set the color of the line */
+    background-color: rgb(7, 62, 27); /* Set the color of the line */
     margin: 0;
     padding: 0;
-    transition: transform 0.3s linear;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .slant-line {
     position: relative; /* Set the position to relative */
     top: -1.15vh; /*1.15*/
-    left: 33.3333%;
-    width: 36%; /* Set the width of the line to span the full width of its container */
+    left: 33.333%;
+    width: 33.3333%; /* Set the width of the line to span the full width of its container */
     height: 10px; /* Set the height of the line */
-    background-color: black; /* Set the color of the line */
+    background-color: rgb(7, 62, 27); /* Set the color of the line */
     margin: 0;
     padding: 0; 
     margin-bottom: -20px;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .right-slant {
